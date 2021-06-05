@@ -172,6 +172,13 @@ body {
   justify-content: center;
   border-radius: 1000px; }
 
+.certificates {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  margin: auto;
+  text-align: center; }
+
 .projects {
   display: flex;
   flex-direction: row;
