@@ -1,0 +1,28 @@
+.header {
+    &__contact {
+        display: flex;
+        flex-direction: row;
+
+        &--email, &--number, &--github {
+            margin-right: 5rem;
+        }
+    }
+}
+
+.about-project {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+.about-video {
+    display: flex;
+    margin-bottom: 8rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    &__title {
+        margin: 7rem 0 3rem 0;
+    }
+}

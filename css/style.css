@@ -46,6 +46,9 @@ body {
   color: #e94560;
   font-weight: 700; }
 
+.header-small {
+  margin: 3rem 0; }
+
 .button {
   border: 2px solid rgba(255, 255, 255, 0.8);
   font-weight: 500;
@@ -60,7 +63,7 @@ body {
 
 .card {
   width: 30rem;
-  height: 37rem;
+  height: 39rem;
   margin-bottom: 10rem;
   padding-bottom: 5rem;
   background: #e94560;
@@ -173,3 +176,24 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly; }
+
+.header__contact {
+  display: flex;
+  flex-direction: row; }
+  .header__contact--email, .header__contact--number, .header__contact--github {
+    margin-right: 5rem; }
+
+.about-project {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%; }
+
+.about-video {
+  display: flex;
+  margin-bottom: 8rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+  .about-video__title {
+    margin: 7rem 0 3rem 0; }
