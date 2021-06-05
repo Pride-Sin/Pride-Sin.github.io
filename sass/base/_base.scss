@@ -22,3 +22,19 @@ a {
     color: inherit; 
     text-decoration: inherit;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width : 930px) {
+    //?  CONTACT SECTION
+    .contact {
+        flex-direction: column !important;
+        font-size: 2rem !important;
+        &__email, &__number, &__github {
+            margin: 2rem auto;
+            width: max-content;
+            &:hover {
+                color: $color-accent;
+            }
+        }
+    }
+}

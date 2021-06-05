@@ -34,6 +34,17 @@ a {
   color: inherit;
   text-decoration: inherit; }
 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width: 930px) {
+  .contact {
+    flex-direction: column !important;
+    font-size: 2rem !important; }
+    .contact__email, .contact__number, .contact__github {
+      margin: 2rem auto;
+      width: max-content; }
+      .contact__email:hover, .contact__number:hover, .contact__github:hover {
+        color: #e94560; } }
+
 body {
   font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.8);
