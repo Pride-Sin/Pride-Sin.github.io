@@ -19,7 +19,11 @@
         border-top-left-radius: 20px; border-top-right-radius: 20px;
 
         &--opinar {
-            background-image: url(../img/projects/opinar-demo.gif);
+            background-image: url(../img/projects/opinar/opinar-demo.gif);
+        }
+
+        &--covidts {
+            background-image: url(../img/projects/covidts/covidts-demo.gif);
         }
 
         &--wip {
