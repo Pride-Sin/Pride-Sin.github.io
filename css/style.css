@@ -1,6 +1,9 @@
 .hover-accent:hover {
   color: #e94560; }
 
+.accent {
+  color: #e94560; }
+
 @keyframes float {
   0% {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -95,13 +98,18 @@ body {
       background-image: url(../img/projects/opinar/opinar-demo.gif); }
     .card__image--covidts {
       background-image: url(../img/projects/covidts/covidts-demo.gif); }
+    .card__image--igrest {
+      background-image: url(../img/projects/igrest/igrest-demo.png); }
+    .card__image--igclone {
+      background-image: url(../img/projects/igclone/igclone-demo.gif); }
     .card__image--wip {
       background-color: #252325; }
   .card__description--text {
     margin: auto;
     margin-top: 2rem;
     width: 80%;
-    justify-self: end; }
+    justify-self: end;
+    height: 80px; }
   .card__description--more {
     margin-top: 3rem;
     text-align: center; }
@@ -279,7 +287,8 @@ body {
 .projects {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-top: 50px; }
 
 .header__contact {
   display: flex;

@@ -25,6 +25,14 @@
             background-image: url(../img/projects/covidts/covidts-demo.gif);
         }
 
+        &--igrest {
+            background-image: url(../img/projects/igrest/igrest-demo.png);
+        }
+
+        &--igclone {
+            background-image: url(../img/projects/igclone/igclone-demo.gif);
+        }
+
         &--wip {
             background-color: #252325;
         }
@@ -38,6 +46,7 @@
             margin-top: 2rem;
             width: 80%;
             justify-self: end;
+            height: 80px;
         }
 
         &--more {
